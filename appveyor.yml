@@ -1,0 +1,7 @@
+install:
+  -  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+test_script:
+  - mvn clover2:setup test -Ptest clover2:aggregate clover2:clover  -Dmaven.test.failure.ignore=true -e
+
+build: off
