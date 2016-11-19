@@ -1,7 +1,8 @@
 environment:
-  JAVA_6_HOME: C:\Program Files\Java\jdk1.6.0\bin
-  JAVA_7_HOME: C:\Program Files\Java\jdk1.7.0\bin
-  JAVA_8_HOME: C:\Program Files\Java\jdk1.8.0
+  JAVA_6_HOME: C:\Program Files\Java\jdk1.6.0\
+  JAVA_7_HOME: C:\Program Files\Java\jdk1.7.0\
+  JAVA_8_HOME: C:\Program Files\Java\jdk1.8.0\
+  JAVA_HOME: C:\Program Files\Java\jdk1.7.0\
 
 
 install:
